@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;700&family=Lexend+Deca:wght@400;600;700&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+/* Main menu screen */
+body {
+    background-color: lemonchiffon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-screen {
+    background-color: hsl(120, 49%, 25%);
+    max-width: 350px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+.menu-screen > h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: hsl(120, 37%, 97%);
+    margin: 1.2rem;
+}
+.snake-image {
+    width: 100%;
+}
+.btn-1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    background-color: hsl(120, 48%, 51%);
+    font-size: 1rem;
+    color: white;
+    margin-top: 5rem;
+    border: none;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 10px;
+}
+.btn-1:hover {
+    cursor: pointer;
+    background-color: white;
+    color: hsl(120, 49%, 25%);
+    transition: ease-in 0.4s;
+}
+
+/* Pause screen */
+.pause-screen {
+    margin-bottom: 2rem;
+}
+.settings-screen {
+    margin-bottom: 2rem;
+}
+.play-area {
+    margin-bottom: 2rem;
+}
+.game-over {
+    margin-bottom: 2rem;
+}
