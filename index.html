@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+
+    <title>Snake Game</title>
+</head>
+<body>
+    <!-- Main Menu screen -->
+    <div class="menu-screen">
+        <h1>Snake Game</h1>
+        <button class="btn-1">New Game</button>
+    </div>
+
+    <!-- Pause screen -->
+    <div class="pause-screen">
+        <h2>Game Paused</h2>
+        <button class="start-over">New Game</button>
+        <button class="quit">Quit</button>
+        <button class="btn-2">Settings</button>
+    </div>
+
+    <!-- Settings screen -->
+    <div class="settings-screen">
+        <h2>Settings</h2>
+        <div>
+            <p>Speed:</p>
+            <input class="speed1" type="radio" name="speed" value="120"/>
+            <label for="speed1">Slow</label>
+            <input class="speed2" type="radio" name="speed" value="75" />
+            <label for="speed2">Normal</label>
+            <input class="speed3" type="radio" name="speed" value="35" />
+            <label for="speed3">Fast</label>
+        </div>
+    </div>
+
+    <!-- Play Area -->
+    <div class="play-area">
+        <header class="wrap">
+            <h2>Snake Game</h2>
+            <p class="score">Score: <span class="score-value">0</span></p>
+        </header>
+        <canvas width="320" height="320"></canvas>
+    </div>
+
+    <!-- Game Over screen -->
+    <div class="game-over">
+        <h2>Game Over</h2>
+        <p>press space to begin a</p>
+        <button class="new-game">new game</a>
+        <a class="settings">settings</a>
+    </div>
+</body>
+</html>
