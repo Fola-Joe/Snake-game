@@ -53,14 +53,14 @@ table {
 html {
     box-sizing: border-box;
 }
-
-/* Main menu screen */
 body {
     background-color: lemonchiffon;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* Main menu screen */
 .menu-screen {
     background-color: hsl(120, 49%, 25%);
     max-width: 350px;
@@ -72,7 +72,7 @@ body {
 .menu-screen > h1 {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 700;
     color: hsl(120, 37%, 97%);
     margin: 1.2rem;
 }
@@ -100,14 +100,56 @@ body {
 
 /* Pause screen */
 .pause-screen {
+    background-color: royalblue;
     margin-bottom: 2rem;
+    text-align: center;
+    padding: 2rem;
+    max-width: 350px;
 }
+.pause-screen > h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 5.5rem;
+    color: hsl(120, 37%, 97%);
+}
+.pause-screen > button {
+    display: block;
+    margin-left: 25%;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    background-color: rgb(123, 152, 238);
+    font-size: 1rem;
+    color: white;
+    border: none;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 10px;
+}
+.pause-screen > button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: royalblue;
+    transition: ease-in 0.4s;
+}
+
+/* Settings screen */
 .settings-screen {
     margin-bottom: 2rem;
+    text-align: center;
+
 }
+
+/* Play area */
 .play-area {
     margin-bottom: 2rem;
 }
+
+/* Game over screen */
 .game-over {
     margin-bottom: 2rem;
 }
