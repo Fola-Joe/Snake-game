@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;700&family=Lexend+Deca:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Lexend+Deca:wght@400;600;700&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -139,9 +139,35 @@ body {
 
 /* Settings screen */
 .settings-screen {
+    background-color: rgb(161, 161, 16);
+    padding: 2rem;
     margin-bottom: 2rem;
     text-align: center;
-
+    max-width: 350px;
+}
+.settings-screen > h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 5.5rem;
+    color: hsl(120, 37%, 97%);
+}
+.settings > p {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: hsl(120, 37%, 97%);
+    margin-bottom: 1rem;
+}
+.settings > label {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: hsl(120, 37%, 97%);
+}
+.settings > input:hover {
+    cursor: pointer;
 }
 
 /* Play area */
