@@ -201,5 +201,39 @@ canvas {
 
 /* Game over screen */
 .game-over {
+    background-color: royalblue;
     margin-bottom: 2rem;
+    border-radius: 7px;
+    max-width: 350px;
+    padding: 2rem;
+    text-align: center;
+}
+.game-over > h2 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 5.5rem;
+    color: hsl(120, 37%, 97%);
+}
+.game-over > button {
+    display: block;
+    margin-left: 25%;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    background-color: rgb(123, 152, 238);
+    font-size: 1rem;
+    color: white;
+    border: none;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 10px;
+}
+.game-over > button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: royalblue;
+    transition: ease-in 0.4s;
 }
